@@ -61,8 +61,8 @@ class CreateCategoryCommand extends Command
     {
         // outputs multiple lines to the console (adding "\n" at the end of each line)
         $output->writeln([
-            'Category Creator',
-            '============',
+            'Creating Category',
+            '««««««««»»»»»»»»»',
             '',
         ]);
         // retrieve the argument value using getArgument()
